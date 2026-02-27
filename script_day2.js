@@ -39,13 +39,31 @@
 
 
 
-const person = {
+//  const person = {
 
-fname:"Surya", 
-Iname:"Singh", 
-age:25 };
+//  fname:"Surya", 
+//  Iname:"Singh", 
+//  age:25 };
 
-for (let x in person) {
+//  for (let x in person) {
 
-console.log("person details: " + x + ":" + person[x]) 
-}
+//  console.log("person details: " + x + ":" + person[x]) 
+//  }
+
+
+
+
+
+ var count = 0;
+
+ document.write("Starting Loop ");
+
+ while (count < 10) {
+
+ }
+
+ document.write("Current Count: " + count + "<br />");
+
+ count++;
+
+ document.write("Loop stopped!");
