@@ -1,11 +1,23 @@
-// const heading =document.createElement
-// const bodytag =document.getElementsByTagName("body");
-// body[0].aqppend(heading);
+// const heading=document.createElement("h2");
+
+// const bodytag=document.getElementsByTagName("body");
+
+// bodytag[0].append(heading);
 
 // function practice(){
 //     document.open();
-//     document.write("<h1>practice</h1>");
+//     document.write("<h1>Practice</h1>");
 //     document.close();
 // }
 
-function onMouseover()
+// function onMouseOver(){
+//     console.log("On Mouse Over");
+// }
+
+// function onMouseOut(){
+//     console.log("On Mouse Out");
+// }
+
+function Change(){
+    console.log("Get Lost.");
+}
