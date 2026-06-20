@@ -1,40 +1,14 @@
-//  console.log("Hello World!");
-//  document.write("Hello World!");
+function checkNumber() {
 
-// var num = 10;
-//  console.log(num);
-//  console.log(typeof(num));
-//  num = false;
-//  console.log(num);
-//  console.log(typeof(num));
-//  num = "Hello World!";
-//  console.log(num);
-//  console.log(typeof(num));
-//  num = "null";
-//  console.log(num);
-//  console.log(typeof(num));
-//  num = undefined;
-//  console.log(num);
-//  console.log(typeof(num));
+    let number = document.getElementById("num").value;
 
- 
-// const sym1 = symbol(4);
-// console.log(sym1);
-// const sym2 = symbol(4);
-// console.log(sym2);
-// if(sym1==sym2){
-//     console.log("true");
-// }
-// else{
-//     console.log("false")
+    if (number % 2 == 0) {
+        document.getElementById("result").innerHTML =
+            "The number is Even";
+    }
+    else {
+        document.getElementById("result").innerHTML =
+            "The number is Odd";
+    }
 
-// }
-
-
-
-
- var a=100; var b=13; var c=10; var linebreak = "<br>";
- document.write("a + b + c =");
- result = a + b + c;
- document.write(result);
- document.write(linebreak);
+}
